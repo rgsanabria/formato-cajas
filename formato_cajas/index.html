@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gimnasio IronFit - ¡Entrena con nosotros!</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Gimnasio IronFit</h1>
+        <nav>
+            <a href="#">Inicio</a> |
+            <a href="#">Planes</a> |
+            <a href="#">Horarios</a> |
+            <a href="#">Contacto</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <h2>¡Ponte en forma con IronFit!</h2>
+            <p>El gimnasio donde tus metas se hacen realidad.</p>
+            <img src="https://web-back.perfectgym.com/sites/default/files/styles/900x/public/2023-05/summmer%20gym%20promo%20%282%29.jpg?itok=YEn4qohr" alt="Imagen de pesas en un gimnasio" style="width: 300px;">
+        </section>
+
+        <section class="registro">
+            <h2>¡Regístrate ahora!</h2>
+            <form action="#" method="post">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required><br><br>
+
+                <label for="apellido">Apellido:</label>
+                <input type="text" id="apellido" name="apellido" required><br><br>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required><br><br>
+
+                <label for="telefono">Teléfono:</label>
+                <input type="tel" id="telefono" name="telefono" required><br><br>
+
+                <label for="plan">Plan:</label>
+                <select id="plan" name="plan">
+                    <option value="basico">Básico</option>
+                    <option value="intermedio">Intermedio</option>
+                    <option value="premium">Premium</option>
+                </select><br><br>
+
+                <label for="horario">Horario:</label>
+                <select id="horario" name="horario">
+                    <option value="manana">Mañana</option>
+                    <option value="tarde">Tarde</option>
+                    <option value="noche">Noche</option>
+                </select><br><br>
+
+                <button type="submit">Registrarse</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Gimnasio IronFit. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
